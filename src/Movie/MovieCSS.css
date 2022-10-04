@@ -1,21 +1,49 @@
-.bgMovie {
-    text-align: center;
-    background-image: url(../../public/img/bgmovie.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100%;    
-  
-  }
+.Movie {
+  text-align: center;
+  background-image: url(../../public/img/bgmovie.jpg);
+  background-size: cover;
+  height: 200%;
+  width: 100%;
+  /* opacity: 0.5;   */
+}
 
-  .bgMovie h1 {
-    font-size: 50px;
-    
-    padding: 20px;
-  }
+.bgMovie{
+  text-align: center;
   
-  .form {
-    display: flex;
-    justify-content: space-evenly;
-    
-  }
- 
+
+}
+.bgMovie h1 {
+  font-size: 50px;
+  color: aqua;
+
+  padding: 20px;
+}
+.bgMovie p{
+  color: greenyellow;
+}
+
+.form {
+  display: flex;
+  justify-content: space-evenly;
+}
+.render .render1 {
+  padding-left: 20px;
+
+}
+.render tr {
+  color:red;
+  font-size: 20px;
+  padding: 10px;
+}
+.render td {
+  padding: 20px;
+}
+
+.form{
+  color: gold;
+}
+
+.form th{
+  padding: 50px;
+
+}
